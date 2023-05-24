@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    width: 100%;
+    place-items: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #fafafa;
+}
+
+.main-conatiner{
+    width: 80%;
+    display: grid;
+    place-items: center;
+}
+
+.row-1{
+    text-align: center;
+    width: 55%;
+    margin-bottom: 60px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #949496;
+    padding-bottom: 10px;
+    line-height: 1.2em;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #3d3e4d;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+}
+
+.row-1 p{
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #cbcbcf;
+}
+
+.row-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.col{
+    margin-left: 15px;
+    margin-right: 15px;
+    height: 100%;
+    display: grid;
+    align-items: center;
+}
+
+.box{
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box1{
+    border-top: 5px solid #7ccac9;
+}
+
+.box2{
+    border-top: 5px solid #d05365;
+    margin-bottom: 30px;
+}
+
+.box3{
+    border-top: 5px solid #ffd230;
+}
+
+.box4{
+    border-top: 5px solid #72bdfa;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 1.2em;
+    color: #3d3e4d;
+    margin-bottom: 15px;
+}
+
+.row-2 p{
+    font-size: 14px;
+    line-height: 1.6em;
+    color: #cbcbcf;
+    margin-bottom: 20px;
+}
+
+.img-cont{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:400px){
+    .main-conatiner{
+        width: 90%;
+    }
+
+    .row-1{
+        width: 100%;
+    }
+
+    h2{
+        font-size: 26px;
+    }
+    
+    h1{
+        font-size: 26px;
+    }
+
+    .row-1 p{
+        font-size: 15px;
+    }
+
+    .row-2{
+        grid-template-columns: 1fr;
+    }
+
+    .box{
+        margin-bottom: 30px;
+    }
+}
